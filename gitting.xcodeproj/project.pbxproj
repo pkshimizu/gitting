@@ -17,6 +17,8 @@
 		BA5FD69328A7B02500227C04 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5FD67D28A7B02400227C04 /* Persistence.swift */; };
 		BA5FD69428A7B02500227C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5FD67E28A7B02500227C04 /* Assets.xcassets */; };
 		BA5FD69528A7B02500227C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5FD67E28A7B02500227C04 /* Assets.xcassets */; };
+		BA5FD69F28A7C1A200227C04 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5FD69E28A7C1A200227C04 /* SettingsView.swift */; };
+		BA5FD6A028A7C1A200227C04 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5FD69E28A7C1A200227C04 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		BA5FD68328A7B02500227C04 /* gitting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5FD68928A7B02500227C04 /* gitting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5FD68B28A7B02500227C04 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BA5FD69E28A7C1A200227C04 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 				BA5FD67D28A7B02400227C04 /* Persistence.swift */,
 				BA5FD67E28A7B02500227C04 /* Assets.xcassets */,
 				BA5FD67928A7B02400227C04 /* gitting.xcdatamodeld */,
+				BA5FD69E28A7C1A200227C04 /* SettingsView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FD69F28A7C1A200227C04 /* SettingsView.swift in Sources */,
 				BA5FD68E28A7B02500227C04 /* gittingApp.swift in Sources */,
 				BA5FD69228A7B02500227C04 /* Persistence.swift in Sources */,
 				BA5FD68C28A7B02500227C04 /* gitting.xcdatamodeld in Sources */,
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FD6A028A7C1A200227C04 /* SettingsView.swift in Sources */,
 				BA5FD68F28A7B02500227C04 /* gittingApp.swift in Sources */,
 				BA5FD69328A7B02500227C04 /* Persistence.swift in Sources */,
 				BA5FD68D28A7B02500227C04 /* gitting.xcdatamodeld in Sources */,
